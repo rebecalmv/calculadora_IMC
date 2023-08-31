@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+    .body-grid {
+        display: block;
+    }
+}
+@media screen and (max-width: 426px) {
+    .body-grid {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+.normal {
+    background-color: #18a623;
+}
+.caution {
+    background-color: #f7eb13;
+}
+.danger {
+    background-color: #e99a12;
+}
+.emergency {
+    background-color: #bd1616;
+}
+
+:root {
+    --blackPrimary: #000;
+    --btnColorPrimary: #ffffff;
+    --btnColorSecondary: #999999;
+}

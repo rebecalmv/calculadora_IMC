@@ -1,0 +1,28 @@
+.Container {
+    margin-top: 46px;
+    text-align: center;
+}
+.Container__imcValue {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 12px;
+    font-size: 44px;
+    font-weight: bold;
+    border-radius: 24px;
+}
+.Container__imcClass {
+    font-size: 24px;
+    margin-top: 32px;
+}
+.Container__imcClass span {
+    margin-top: 12px;
+    font-size: 28px;
+    display: block;
+    text-decoration: underline;
+}
+
+.Container__imcHelpNeeded {
+    margin-top: 12px;
+    font-style: italic;
+}
+
